@@ -161,3 +161,40 @@ nav .menu a{
     max-width:45px;
     margin-bottom:5px;
 }
+
+/* sponsor section */
+.sponsor-parent{
+    max-width:1440px;
+    margin:0 auto;
+    text-align: center;
+}
+.sponsor-heading{
+    font-size: 45px;
+    color:#131313;
+    margin-bottom: 24px;
+}
+.sponsor-para{
+    margin-bottom:50px;
+}
+.sponsor-image{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:155px;
+    margin-bottom:130px;
+    filter: grayscale();
+}
+
+/* footer section */
+.footer{
+    max-width:1440px;
+    margin:0 auto;
+    text-align:center;
+    margin-bottom: 215px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+}
+.footer-para{
+    font-size: 20px;
+    color:#424242;
+    padding:39px 410px;
+}
