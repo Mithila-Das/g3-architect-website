@@ -83,6 +83,9 @@ nav .menu a{
     align-items: center;
     gap:73px;
 }
+.team-content{
+    max-width: 537px;
+}
 .team-image{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
@@ -109,4 +112,52 @@ nav .menu a{
     line-height: 26px;
     color:#727272;
     margin-bottom: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* some facts section */
+.fact-parent{
+    max-width: 1440px;
+    margin:0 auto;
+}
+.fact-heading{
+    font-size: 45px;
+    color:#131313;
+    margin-bottom:24px;
+}
+.fact-para{
+    font-size:16px;
+    line-height: 26px;
+    color:#727272;
+    margin-bottom:100px;
+}
+.card-parent{
+    display:flex;
+    gap:124px;
+    max-width:1340px;
+    margin-bottom:180px;
+    margin-left:30px;
+    
+}
+.facts-card{
+    border:1px solid #FF900E;
+    border-radius: 8px;
+    padding:52px 36px;
+    text-align: center;
+    width:241px;
+}
+.facts-card img{
+    max-width:45px;
+    margin-bottom:5px;
 }
