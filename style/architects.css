@@ -1,0 +1,75 @@
+*{
+    margin:0px;
+    padding:0px;
+    max-width:1920px;
+}
+.font-work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+/* header section style */
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+    margin: 0px auto;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:1440px;
+    margin:0 auto;
+    margin-bottom: 102px;
+}
+.brand{
+    font-size: 45px;
+    color:#131313;
+    margin-top:20px;
+}
+nav .menu{
+    display:flex;
+    gap:30px;
+    list-style-type: none;
+    margin-top:20px;
+}
+nav .menu a{
+    text-decoration: none;
+    font-size:18px;
+    line-height: 26px;
+    color:#424242;
+    font-weight: 500;
+}
+
+/* banner related styles */
+.banner-parent{
+    max-width: 1440px;
+    margin:0 auto;
+}
+.banner-content{
+    max-width:862px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-heading{
+    font-size: 64px;
+    color:#131313;
+    margin-bottom: 20px;
+}
+.banner-para{
+    font-size: 16px;
+    line-height: 26px;
+    color:#727272;
+    margin-bottom: 32px;
+}
+.btn{
+    background-color: #FF900E;
+    color:#FFFFFF;
+    padding:20px 24px;
+    border:none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom:50px;
+}
+.banner-parent img{
+    vertical-align: middle;
+}
