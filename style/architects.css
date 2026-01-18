@@ -269,6 +269,9 @@ nav, .team-parent, .features-parent, .card-parent{
     /* width:100%; */
     margin-bottom: 20px;
 }
+.img{
+    width:100%;
+}
 .team-heading{
     font-size: 40px;
     padding:10px;
@@ -291,9 +294,8 @@ margin-left:10px;
     font-size:15px;
     padding:10px;
 }
-.features-image{
+.architect{
     width:100%;
-    /* max-width:576px; */
 }
 #experience-badge{
     padding:24px 32px;
@@ -328,6 +330,8 @@ margin-left:10px;
     width:100%;
     padding:38px 26px;
     margin-bottom:50px;
+    /* margin-left:10px; */
+    /* margin-right:5px; */
 }
 
 /* our sponsor section */
@@ -343,6 +347,7 @@ margin-left:10px;
     grid-template-columns: repeat(1, 1fr);
     gap:30px;
     width:100%;
+    justify-items: center;
     /* margin-left:10px; */
 }
 
